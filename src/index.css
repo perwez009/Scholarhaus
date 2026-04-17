@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+  background-image: radial-gradient(circle at top, #eef6fa 0%, #f8fafc 40%, #f8fafc 100%);
+}
+
+::selection {
+  background: #d9ebf4;
+  color: #0f172a;
+}
